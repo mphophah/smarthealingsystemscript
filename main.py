@@ -68,8 +68,8 @@ def move_old_logs(sourceLocation, destinationLocation, months):
 
 
 def clean_logs():
-    driveCpath = "C:"  # Update this with the actual path for drive C
-    driveDpath = "D:"  # Update this with the actual path for drive D
+    driveCpath = "C:***********"  # Update this with the actual path for drive C
+    driveDpath = "D:***********"  # Update this with the actual path for drive D
     netLogsPath = os.path.join(driveCpath, "path_to_net_logs")  # Update with the actual path to .NET logs
 
     if get_drive_usage(driveCpath) >= 90:
